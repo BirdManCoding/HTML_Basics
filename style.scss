@@ -1,0 +1,17 @@
+@import "./scss/colors";
+@import "./scss/fonts";
+@import "./scss/header";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main {
+  min-height: 100vh;
+}

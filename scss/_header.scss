@@ -1,0 +1,38 @@
+header {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  background-color: $primary;
+  .header__brand {
+    font-size: 1.5rem;
+    color: $navColor;
+    text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
+    cursor: pointer;
+  }
+  .header__navbar {
+    nav {
+      height: 100%;
+    }
+    ul {
+      height: 100%;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 450px;
+    }
+    a {
+      color: $navColor;
+      text-decoration: none;
+      text-transform: uppercase;
+      text-shadow: 1px 1px 5px rgba(150, 150, 150, 1);
+      &:hover {
+        border-bottom: 2px solid $secondary;
+      }
+    }
+
+    .active {
+      border-bottom: 2px solid $secondary;
+    }
+  }
+}
